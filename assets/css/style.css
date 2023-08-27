@@ -8,6 +8,38 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px;
+    padding: 80px;
     box-sizing: border-box;
+}
+
+.home__title{
+    font-family: 'Pixelmania';
+    border-bottom: 4px solid;
+    width: 7ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(7), blinking 0.5s infinite step-end alternate;
+    padding: 8px;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blinking{
+    50% {
+        border-color: transparent;
+    }
+}
+
+.home__start{
+    font-family: 'joystix';
+}
+
+.home__start a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }

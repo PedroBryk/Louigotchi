@@ -2,3 +2,8 @@
     font-family: 'Pixelmania';
     src: url(../fonts/Pixelmania.ttf);
 }
+
+@font-face {
+    font-family: 'joystix';
+    src: url(../fonts/joystixmonospace.otf);
+}
