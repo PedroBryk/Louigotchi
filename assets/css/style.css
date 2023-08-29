@@ -1,5 +1,5 @@
 .tamagotchi__home{
-    background-image: url(../img/background-img.png);
+    background-color: #92F611;
     height: 100vh;
 }
 
@@ -14,11 +14,10 @@
 
 .home__title{
     font-family: 'Pixelmania';
-    border-bottom: 4px solid;
     width: 7ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 3s steps(7), blinking 0.5s infinite step-end alternate;
+    animation: typing 3s steps(7), blinking 0.5s step-end alternate;
     padding: 8px;
 }
 
@@ -34,12 +33,44 @@
     }
 }
 
-.home__start{
+.gatinho__home-img{
+    animation: bounceIn;
+    animation-duration: 5s;
+    
+}
+
+.start-button{
     font-family: 'joystix';
 }
 
-.home__start a{
+.start-button a{
     text-decoration: none;
-    color: black;
-    cursor: pointer;
+    font-size: 24px;
+    color: #FF2F7C;
+    animation: changeColor 3s ease-in-out infinite alternate;
 }
+
+.start-button{
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+
+  @keyframes changeColor {
+    0% {
+      color: #FF2F7C;
+    }
+    50% {
+      color: #00ADBC;
+    }
+    100% {
+      color: #FF2F7C;
+    }
+  }
