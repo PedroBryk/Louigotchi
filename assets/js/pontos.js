@@ -30,9 +30,11 @@ function decrementHappy() {
     sonoPoints = Math.max(sonoPoints - 10, 0);
 
     sonoElement.innerText = `Sono: ${sonoPoints}`;
-
+    
   }
 
   setInterval(decrementHungry, 10000);     // 10 seconds
   setInterval(decrementHappy, 20000);     // 20 seconds
   setInterval(decrementSleep, 30000);     // 30 seconds
+
+  
