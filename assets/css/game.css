@@ -8,6 +8,13 @@ body{
     align-items: center;
 }
 
+.tamagotchi__game-header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px;
+}
+
 p{
     font-family: 'joystix';
 }
