@@ -1,0 +1,14 @@
+body{
+    background-color: #92F611;
+}
+.tamagotchi__game-character{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-family: 'joystix';
+}
+
