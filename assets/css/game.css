@@ -6,13 +6,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
 }
 
 .tamagotchi__game-header{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 30px;
+    padding: 10px;
 }
 
 p{
@@ -23,6 +24,10 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 30px;
     
+}
+
+.action{
+    font-family: 'joystix';
+    border: 2px solid black;
 }
