@@ -19,3 +19,10 @@ p{
     font-family: 'joystix';
 }
 
+.tamagotchi__game-actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
