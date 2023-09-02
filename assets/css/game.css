@@ -27,7 +27,7 @@ p{
     
 }
 
-.action{
+.action, .action__sleep{
     font-family: 'joystix';
     border: 2px solid black;
 }
