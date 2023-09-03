@@ -16,8 +16,9 @@ body{
     padding: 10px;
 }
 
-p{
+.ponto{
     font-family: 'joystix';
+    color: black;
 }
 
 .tamagotchi__game-actions{
