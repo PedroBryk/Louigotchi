@@ -1,16 +1,14 @@
 var btn = document.querySelector('.action__sleep');
 
-var ponto = document.querySelector('.ponto');
+let paragrafos = document.querySelectorAll("p");
 
-console.log(ponto);
-
-btn.addEventListener("click", function() {
-
-    document.body.style.backgroundColor = "black";
-
-    ponto.style.color = "white";
-
-    var img = document.querySelector('.character');
-
-    img.src = "./assets/img/gatinho_dormindo.png";
+btn.addEventListener("click", function alternarCores() {
+    paragrafos.forEach(paragrafo => {
+        if (paragrafo.style.color === "black") {
+            paragrafo.style.color = "white";
+        } else {
+            paragrafo.style.color = "black";
+        }
+    });
 });
+
