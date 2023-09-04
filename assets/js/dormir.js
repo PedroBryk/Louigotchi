@@ -36,14 +36,7 @@ function alteraImagem(){
 
     var imagem = document.querySelector('.character');
 
-    if (imagemAtual === 1) {
-        imagem.src = "./assets/img/gatinho_dormindo.png"; // Troque "nova_imagem.jpg" pelo caminho da segunda imagem
-        imagemAtual = 2; // Atualiza a variável para indicar que a segunda imagem está sendo exibida
-      } else {
-        imagem.src = "./assets/img/gatinho_feliz.png"; // Volta para a primeira imagem
-        imagemAtual = 1; // Atualiza a variável para indicar que a primeira imagem está sendo exibida
-      }
-
+    imagem.src = "./assets/img/gatinho_dormindo.png";
 }
 
 btn.addEventListener("click", alteraImagem);
