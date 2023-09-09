@@ -30,13 +30,3 @@ function toggleBackgroundColor() {
 
 btn.addEventListener("click", toggleBackgroundColor);
 
-//Altera a imagem
-
-function alteraImagem(){
-
-    var imagem = document.querySelector('.character');
-
-    imagem.src = "./assets/img/gatinho_dormindo.png";
-}
-
-btn.addEventListener("click", alteraImagem);
